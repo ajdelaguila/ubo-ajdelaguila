@@ -1,0 +1,28 @@
+{
+  "name": "ubo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.19",
+    "mongoose": "^4.7.6",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "swagger-jsdoc": "^1.8.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "sinon-mongoose": "^1.3.0"
+  }
+}
