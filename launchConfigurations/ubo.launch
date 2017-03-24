@@ -1,0 +1,19 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.eu-gb.bluemix.net",
+      "Org": "ajdelaguila",
+      "Space": "test"
+    },
+    "Name": "ubo",
+    "Instrumentation": {
+      "domain": "eu-gb.mybluemix.net",
+      "services": [
+        "Compose for MongoDB-08"
+      ]
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}

@@ -116,7 +116,7 @@ router.get('/:userId', UserController.GetUserById);
  *         schema:
  *           $ref: '#/definitions/User'
  */
-router.put('/:userId', UserController.UpdateUser);
+router.put("/:userId/", UserController.UpdateUser);
 
 /**
  * @swagger
@@ -161,6 +161,6 @@ router.post('/', UserController.PostUser);
  *       200:
  *         description: Successfully deleted
  */
-router.delete('/:userId', UserController.DeleteUser);
+router.delete("/:userId/", UserController.DeleteUser);
 
 module.exports = router;

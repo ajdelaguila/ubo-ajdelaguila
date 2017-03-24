@@ -43,7 +43,7 @@ app.get('/swagger.json', function(req, res) {
 // Use native Node promises
 mongoose.Promise = global.Promise;
 // connect to MongoDB
-mongoose.connect(conf.URL);
+mongoose.connect(conf.URL, conf.OPTIONS);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
